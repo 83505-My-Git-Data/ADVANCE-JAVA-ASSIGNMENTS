@@ -9,13 +9,15 @@
 <title>Update Candidate</title>
 </head>
 <body>
+	<h3>${initParam.title} - Online Voting</h3>
+
 
 	<jsp:useBean id="ucb" class="com.sunbeam.beans.UpdateCandidateBean"></jsp:useBean>
 	<jsp:setProperty name="ucb" property="*" />
 	${ ucb.updateCandidate() }
 	<c:choose>
-		<c:when test="${ucb.count==1 }">
-			<c:redirect url="logout.jsp"></c:redirect>
+		<c:when test="${ ucb.count==1 }">
+			<c:redirect url="resultBean.jsp"></c:redirect>
 		</c:when>
 		<c:otherwise>
 		Candidate Update Failed! <br />

@@ -13,6 +13,8 @@
 	<jsp:useBean id="lb" class="com.sunbeam.beans.LoginBean" scope="session"/>
 	<jsp:setProperty name="lb" property="*" />
 	
+	Hello, ${lb.email} <br/>
+	
 	${lb.authenticate()};
 	
 	<c:choose>

@@ -8,6 +8,8 @@
 </head>
 <body>
 
+	<h3>${initParam.title} - Online Voting</h3>
+
 	<jsp:useBean id="fcb" class="com.sunbeam.beans.FindCandidateBean"></jsp:useBean>
 	<jsp:setProperty name="fcb" property="id"  param="id"/><br/><br/>
 	${fcb.findCandidate()}

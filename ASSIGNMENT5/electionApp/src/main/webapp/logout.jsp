@@ -7,6 +7,8 @@
 <title>Logout</title>
 </head>
 <body>
+	<h3>${initParam.title} - Online Voting</h3>
+
 <p>
 Thank You for Saving the Democracy!
 </p>

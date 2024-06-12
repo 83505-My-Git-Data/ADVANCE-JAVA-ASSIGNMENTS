@@ -8,8 +8,7 @@
 </head>
 <body>
 	
-	
-	<h3>Online Voting</h3>
+	<h3>${initParam.title} - Online Voting</h3>
 
 	<form method="post" action="loginBean.jsp">
 		Email: <input type="text" name="email" /> <br />

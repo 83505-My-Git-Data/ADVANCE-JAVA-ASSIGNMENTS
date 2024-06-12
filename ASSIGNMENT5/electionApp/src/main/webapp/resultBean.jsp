@@ -9,6 +9,8 @@
 <title></title>
 </head>
 <body>
+ 	<h2>${initParam.title}- Online Voting</h2>
+ 
 	<h1>Candidate Results</h1>
 
 	<jsp:useBean id="res" class="com.sunbeam.beans.CandidateListBean" />
