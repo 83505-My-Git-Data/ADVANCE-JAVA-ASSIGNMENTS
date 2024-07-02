@@ -15,7 +15,7 @@
 
 	<jsp:useBean id="res" class="com.sunbeam.beans.CandidateListBean" />
 	
-
+	
 	<table border="1">
 		<thead>
 			<th>Id</th>
@@ -46,6 +46,8 @@
 	</table>
 	
 	<a href="index.jsp">Sign Out</a>
+	<a href="announcement.jsp">Announce</a>
+	
 
 
 </body>

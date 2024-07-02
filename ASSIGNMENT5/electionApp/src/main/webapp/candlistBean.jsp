@@ -11,10 +11,14 @@
 <title>Candidates</title>
 </head>
 <body>
-	<
+
+
+
 
 	<jsp:useBean id="clb" class="com.sunbeam.beans.CandidateListBean" />
-	<h2>${initParam.title}- Online Voting</h2>
+	<h2>Latest Announcement:</h2>
+    <p>${applicationScope.announcementBean.message}</p>
+	<h2>${initParam.title}-Online Voting</h2>
 	<h2>Candidate List</h2>
 
 
